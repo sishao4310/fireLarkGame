@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "396ebd61-fc82-4a12-a47e-cea101b1567a",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "paotai_meiguoduizhang": {
+      "ver": "1.0.4",
+      "uuid": "1231f295-98af-4ee7-8902-a0e38a21575c",
+      "rawTextureUuid": "396ebd61-fc82-4a12-a47e-cea101b1567a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 473,
+      "height": 267,
+      "rawWidth": 475,
+      "rawHeight": 269,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "396ebd61-fc82-4a12-a47e-cea101b1567a@6c48a",
+      "displayName": "paotai_meiguoduizhang",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "396ebd61-fc82-4a12-a47e-cea101b1567a",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "396ebd61-fc82-4a12-a47e-cea101b1567a@6c48a"
+  }
+}

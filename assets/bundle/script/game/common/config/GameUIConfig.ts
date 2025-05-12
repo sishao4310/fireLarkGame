@@ -11,18 +11,12 @@ import { UIConfig } from "db://oops-framework/core/gui/layer/UIConfig";
 export enum UIID {
     /** 资源加载界面 */
     Loading = 1,
-    /** 提示弹出窗口 */
-    Alert,
-    /** 确认弹出窗口 */
-    Confirm,
-    /** DEMO */
-    Demo
-}
+    /** 游戏主页面 */
+    Game,
+}   
 
 /** 打开界面方式的配置数据 */
 export var UIConfigData: { [key: number]: UIConfig } = {
     [UIID.Loading]: { layer: LayerType.UI, prefab: "gui/loading/loading" },
-    [UIID.Alert]: { layer: LayerType.Dialog, prefab: "common/prefab/alert" },
-    [UIID.Confirm]: { layer: LayerType.Dialog, prefab: "common/prefab/confirm" },
-    [UIID.Demo]: { layer: LayerType.UI, prefab: "gui/demo/demo" },
+    [UIID.Game]: { layer: LayerType.UI, prefab: "gui/prefabs/game" },
 }

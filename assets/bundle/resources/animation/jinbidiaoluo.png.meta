@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "a7627dbb-3e31-43e1-a12e-593e73e841e1",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "jinbidiaoluo": {
+      "ver": "1.0.4",
+      "uuid": "e430e00e-70ed-4c02-9323-537e6082950c",
+      "rawTextureUuid": "a7627dbb-3e31-43e1-a12e-593e73e841e1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 128,
+      "height": 108,
+      "rawWidth": 130,
+      "rawHeight": 110,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "a7627dbb-3e31-43e1-a12e-593e73e841e1@6c48a",
+      "displayName": "jinbidiaoluo",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a7627dbb-3e31-43e1-a12e-593e73e841e1",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "a7627dbb-3e31-43e1-a12e-593e73e841e1@6c48a"
+  }
+}

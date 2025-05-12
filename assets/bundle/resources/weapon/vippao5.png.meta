@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "a964a269-637e-4f19-b94f-a5665516427b",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "vippao5": {
+      "ver": "1.0.4",
+      "uuid": "9f89bce4-7b4b-45ee-8e33-56996ab430bb",
+      "rawTextureUuid": "a964a269-637e-4f19-b94f-a5665516427b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 359,
+      "height": 123,
+      "rawWidth": 361,
+      "rawHeight": 125,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "a964a269-637e-4f19-b94f-a5665516427b@6c48a",
+      "displayName": "vippao5",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a964a269-637e-4f19-b94f-a5665516427b",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "a964a269-637e-4f19-b94f-a5665516427b@6c48a"
+  }
+}

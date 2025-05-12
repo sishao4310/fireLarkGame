@@ -12,6 +12,7 @@ import { ModuleUtil } from "../../../../../../extensions/oops-plugin-framework/a
 import { DemoViewComp } from "../../account/view/DemoViewComp";
 import { smc } from "../../common/SingletonModuleComp";
 import { UIID } from "../../common/config/GameUIConfig";
+import { GameViewComp } from "../../GameViewComp";
 
 const { ccclass, property } = _decorator;
 
@@ -58,7 +59,7 @@ export class LoadingViewComp extends CCVMParentComp {
     private loadGameRes() {
         // 加载初始游戏内容资源的多语言提示文本
         this.data.prompt = oops.language.getLangByID("loading_load_game");
-        oops.res.loadDir("game", this.onProgressCallback.bind(this), this.onCompleteCallback.bind(this));
+        oops.res.loadDir("resource", this.onProgressCallback.bind(this), this.onCompleteCallback.bind(this));
     }
 
     /** 加载进度事件 */
@@ -77,7 +78,7 @@ export class LoadingViewComp extends CCVMParentComp {
     private async onCompleteCallback() {
         // 获取用户信息的多语言提示文本
         this.data.prompt = oops.language.getLangByID("loading_load_player");
-        await ModuleUtil.addViewUiAsync(smc.account, DemoViewComp, UIID.Demo);
+        await ModuleUtil.addViewUiAsync(smc.account, GameViewComp, UIID.Game);
         ModuleUtil.removeViewUi(this.ent, LoadingViewComp, UIID.Loading);
     }
 

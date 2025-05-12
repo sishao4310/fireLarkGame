@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "3ecdd9f2-d07e-4064-a7b9-5d46987c9d0b",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "zidongkaipao": {
+      "ver": "1.0.4",
+      "uuid": "6e0fb02f-137e-4e28-949c-5e760f710e29",
+      "rawTextureUuid": "3ecdd9f2-d07e-4064-a7b9-5d46987c9d0b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -462,
+      "offsetY": 11.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1124,
+      "height": 105,
+      "rawWidth": 2048,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "3ecdd9f2-d07e-4064-a7b9-5d46987c9d0b@6c48a",
+      "displayName": "zidongkaipao",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3ecdd9f2-d07e-4064-a7b9-5d46987c9d0b",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "3ecdd9f2-d07e-4064-a7b9-5d46987c9d0b@6c48a"
+  }
+}

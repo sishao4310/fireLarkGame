@@ -1,0 +1,152 @@
+{
+"skeleton": { "hash": "yKNgfVn4kromXS28Ep//5WQ0s0M", "spine": "3.6.53", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.76, "scaleY": 0.76 },
+	{ "name": "bone", "parent": "root", "length": 30, "rotation": 90, "y": -69.68 },
+	{ "name": "bone2", "parent": "bone", "length": 100, "x": 47.02 },
+	{ "name": "huo", "parent": "root", "x": -32.22, "y": 102.81, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "huo2", "parent": "root", "x": 31.29, "y": 103.72, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "huo3", "parent": "root", "y": 125.71, "scaleX": 0.8, "scaleY": 0.8 }
+],
+"slots": [
+	{ "name": "paokoutexiao", "bone": "huo" },
+	{ "name": "paokoutexiao3", "bone": "huo2" },
+	{ "name": "paokoutexiao5", "bone": "huo3" },
+	{ "name": "paokoutexiao2", "bone": "huo", "blend": "additive" },
+	{ "name": "paokoutexiao4", "bone": "huo2", "blend": "additive" },
+	{ "name": "paokoutexiao6", "bone": "huo3", "blend": "additive" },
+	{ "name": "vippaotai7/vippaotai7", "bone": "root", "attachment": "vippaotai7/vippaotai7" }
+],
+"skins": {
+	"default": {
+		"paokoutexiao": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao2": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao3": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao4": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao5": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao6": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"vippaotai7/vippaotai7": {
+			"vippaotai7/vippaotai7": {
+				"type": "mesh",
+				"uvs": [ 0, 0, 0.33333, 0, 0.66667, 0, 1, 0, 1, 0.33333, 1, 0.66667, 1, 1, 0.66667, 1, 0.33333, 1, 0, 1, 0, 0.66667, 0, 0.33333, 0.33333, 0.33333, 0.33333, 0.66667, 0.66667, 0.33333, 0.66667, 0.66667 ],
+				"triangles": [ 11, 0, 1, 12, 1, 2, 11, 1, 12, 14, 2, 3, 12, 2, 14, 14, 3, 4, 10, 11, 12, 13, 12, 14, 10, 12, 13, 15, 14, 4, 13, 14, 15, 15, 4, 5, 9, 10, 13, 8, 13, 15, 9, 13, 8, 7, 15, 5, 8, 15, 7, 7, 5, 6 ],
+				"vertices": [ 1, 2, 104.17, 78.5, 1, 2, 1, 151.18, 26.17, 0, 2, 104.17, 26.17, 1, 2, 1, 151.18, -26.17, 0, 2, 104.17, -26.17, 1, 1, 2, 104.17, -78.5, 1, 2, 1, 96.85, -78.5, 0.07448, 2, 49.83, -78.5, 0.92552, 2, 1, 42.52, -78.5, 0.49278, 2, -4.5, -78.5, 0.50722, 2, 1, -11.82, -78.5, 0.85512, 2, -58.83, -78.5, 0.14488, 2, 1, -11.82, -26.17, 0.97354, 2, -58.83, -26.17, 0.02646, 2, 1, -11.82, 26.17, 0.9684, 2, -58.83, 26.17, 0.0316, 2, 1, -11.82, 78.5, 0.81968, 2, -58.83, 78.5, 0.18032, 2, 1, 42.52, 78.5, 0.41463, 2, -4.5, 78.5, 0.58537, 2, 1, 96.85, 78.5, 0.03275, 2, 49.83, 78.5, 0.96725, 2, 1, 96.85, 26.17, 9.0E-4, 2, 49.83, 26.17, 0.9991, 2, 1, 42.52, 26.17, 0.36418, 2, -4.5, 26.17, 0.63582, 2, 1, 96.85, -26.17, 0.02581, 2, 49.83, -26.17, 0.97419, 2, 1, 42.52, -26.17, 0.40438, 2, -4.5, -26.17, 0.59562 ],
+				"hull": 12,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 0 ],
+				"width": 157,
+				"height": 163
+			}
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"slots": {
+			"paokoutexiao": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 0.85, "y": 1 },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 0, "y": -10 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"paokoutexiao": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	}
+}
+}

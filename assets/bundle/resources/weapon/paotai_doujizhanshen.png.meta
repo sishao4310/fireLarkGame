@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "64fd74a4-c69c-45a7-8d7c-522d5807e310",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "paotai_doujizhanshen": {
+      "ver": "1.0.4",
+      "uuid": "f9c0d404-74f3-408a-853e-82ac1373ac0b",
+      "rawTextureUuid": "64fd74a4-c69c-45a7-8d7c-522d5807e310",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 1903,
+      "height": 452,
+      "rawWidth": 1905,
+      "rawHeight": 454,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "64fd74a4-c69c-45a7-8d7c-522d5807e310@6c48a",
+      "displayName": "paotai_doujizhanshen",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "64fd74a4-c69c-45a7-8d7c-522d5807e310",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "64fd74a4-c69c-45a7-8d7c-522d5807e310@6c48a"
+  }
+}

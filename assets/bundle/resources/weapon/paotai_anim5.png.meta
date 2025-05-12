@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "b1c21d57-1e54-4213-ac15-2ca3dfbaad39",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "paotai_anim5": {
+      "ver": "1.0.4",
+      "uuid": "0296dbd9-cf96-4507-9f3f-eee7afe8c357",
+      "rawTextureUuid": "b1c21d57-1e54-4213-ac15-2ca3dfbaad39",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 212,
+      "height": 116,
+      "rawWidth": 214,
+      "rawHeight": 118,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "b1c21d57-1e54-4213-ac15-2ca3dfbaad39@6c48a",
+      "displayName": "paotai_anim5",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b1c21d57-1e54-4213-ac15-2ca3dfbaad39",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "b1c21d57-1e54-4213-ac15-2ca3dfbaad39@6c48a"
+  }
+}

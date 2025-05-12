@@ -1,0 +1,45 @@
+{
+"skeleton": { "hash": "Incj/9tzic5gv1tU2mwivFtL1RI", "spine": "3.3.07", "width": 150, "height": 150, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "zidongkaipao/zdkp_00000", "bone": "root", "attachment": "zidongkaipao/zdkp_00000", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"zidongkaipao/zdkp_00000": {
+			"zidongkaipao/zdkp_00000": { "width": 150, "height": 150 },
+			"zidongkaipao/zdkp_00001": { "width": 150, "height": 150 },
+			"zidongkaipao/zdkp_00002": { "width": 150, "height": 150 },
+			"zidongkaipao/zdkp_00003": { "width": 150, "height": 150 },
+			"zidongkaipao/zdkp_00004": { "width": 150, "height": 150 },
+			"zidongkaipao/zdkp_00005": { "width": 150, "height": 150 },
+			"zidongkaipao/zdkp_00006": { "width": 150, "height": 150 },
+			"zidongkaipao/zdkp_00007": { "width": 150, "height": 150 },
+			"zidongkaipao/zdkp_00008": { "width": 150, "height": 150 },
+			"zidongkaipao/zdkp_00009": { "width": 150, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"zidongkaipao/zdkp_00000": {
+				"attachment": [
+					{ "time": 0, "name": "zidongkaipao/zdkp_00000" },
+					{ "time": 0.0666, "name": "zidongkaipao/zdkp_00001" },
+					{ "time": 0.1333, "name": "zidongkaipao/zdkp_00002" },
+					{ "time": 0.2, "name": "zidongkaipao/zdkp_00003" },
+					{ "time": 0.2666, "name": "zidongkaipao/zdkp_00004" },
+					{ "time": 0.3333, "name": "zidongkaipao/zdkp_00005" },
+					{ "time": 0.4, "name": "zidongkaipao/zdkp_00006" },
+					{ "time": 0.4666, "name": "zidongkaipao/zdkp_00007" },
+					{ "time": 0.5333, "name": "zidongkaipao/zdkp_00008" },
+					{ "time": 0.6, "name": "zidongkaipao/zdkp_00009" }
+				]
+			}
+		}
+	}
+}
+}

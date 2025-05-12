@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "b98696b8-6c4f-48be-92e6-5eb3fae5c3c3",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "yinbidiaoluo": {
+      "ver": "1.0.4",
+      "uuid": "d44c2cd6-a3ed-42cd-be88-6110a0694ecc",
+      "rawTextureUuid": "b98696b8-6c4f-48be-92e6-5eb3fae5c3c3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 128,
+      "height": 107,
+      "rawWidth": 130,
+      "rawHeight": 109,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "b98696b8-6c4f-48be-92e6-5eb3fae5c3c3@6c48a",
+      "displayName": "yinbidiaoluo",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b98696b8-6c4f-48be-92e6-5eb3fae5c3c3",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "b98696b8-6c4f-48be-92e6-5eb3fae5c3c3@6c48a"
+  }
+}

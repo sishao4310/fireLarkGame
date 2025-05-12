@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "8dd39131-1e0f-4990-a9d0-c8923984821d",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "num_gold3": {
+      "ver": "1.0.4",
+      "uuid": "3624a835-5757-4922-97c6-220d306db366",
+      "rawTextureUuid": "8dd39131-1e0f-4990-a9d0-c8923984821d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 600,
+      "height": 59,
+      "rawWidth": 600,
+      "rawHeight": 59,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "8dd39131-1e0f-4990-a9d0-c8923984821d@6c48a",
+      "displayName": "num_gold3",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8dd39131-1e0f-4990-a9d0-c8923984821d",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "8dd39131-1e0f-4990-a9d0-c8923984821d@6c48a"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "5e57c7d6-9be6-4332-91a1-31d1dda9d10d",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "pao_FrostFighter": {
+      "ver": "1.0.4",
+      "uuid": "f632af43-da8d-463b-a747-0b88f0029607",
+      "rawTextureUuid": "5e57c7d6-9be6-4332-91a1-31d1dda9d10d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 876,
+      "height": 518,
+      "rawWidth": 878,
+      "rawHeight": 520,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "5e57c7d6-9be6-4332-91a1-31d1dda9d10d@6c48a",
+      "displayName": "pao_FrostFighter",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5e57c7d6-9be6-4332-91a1-31d1dda9d10d",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "5e57c7d6-9be6-4332-91a1-31d1dda9d10d@6c48a"
+  }
+}

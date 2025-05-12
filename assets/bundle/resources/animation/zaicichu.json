@@ -1,0 +1,124 @@
+{
+"skeleton": { "hash": "n1kwUB9d+TNh2TqBasd1mQBkpM4", "spine": "3.3.07", "width": 220.8, "height": 293.6, "images": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "cc", "parent": "root", "y": 96 },
+	{ "name": "circle", "parent": "root", "y": -98.99 },
+	{ "name": "nzcc", "parent": "root", "y": 95.99 },
+	{ "name": "sj", "parent": "root", "y": 45 }
+],
+"slots": [
+	{ "name": "circle", "bone": "circle", "attachment": "您在此处/circle" },
+	{ "name": "sj", "bone": "sj", "attachment": "您在此处/sj" },
+	{ "name": "nzcc", "bone": "nzcc", "attachment": "您在此处/nzcc" },
+	{ "name": "cc", "bone": "cc", "attachment": "您在此处/nzcc", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"cc": {
+			"您在此处/nzcc": { "width": 173, "height": 68 }
+		},
+		"circle": {
+			"您在此处/circle": { "width": 276, "height": 276 }
+		},
+		"nzcc": {
+			"您在此处/nzcc": { "width": 173, "height": 68 }
+		},
+		"sj": {
+			"您在此处/sj": { "width": 75, "height": 58 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"cc": {
+				"color": [
+					{ "time": 0, "color": "ffffff3a" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"circle": {
+				"color": [
+					{ "time": 0, "color": "ffffff88" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff88" }
+				]
+			}
+		},
+		"bones": {
+			"sj": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0, "y": -5.99 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"cc": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0, "y": -6.99 },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"nzcc": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0, "y": -6.99 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"circle": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.1, "y": 1.1 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"cc": {
+				"color": [
+					{ "time": 0, "color": "ffffff3a" }
+				]
+			},
+			"circle": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"sj": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"cc": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"nzcc": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

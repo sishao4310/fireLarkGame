@@ -1,0 +1,415 @@
+{
+"skeleton": { "hash": "H/MWOMYlmEO4Lrv64sU4JhX3zp8", "spine": "3.6.53", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root", "x": 1, "y": 1, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "paotai/angerbirdCannon/angerbird1", "parent": "root", "length": 80, "rotation": 90, "x": -0.27, "y": -86.03 },
+	{ "name": "bone", "parent": "paotai/angerbirdCannon/angerbird1", "length": 65, "x": 102.55 },
+	{ "name": "bone2", "parent": "paotai/angerbirdCannon/angerbird1", "length": 47.05, "rotation": 73.58, "x": 71.08, "y": 47.27 },
+	{ "name": "dan", "parent": "root", "y": 119.45 },
+	{ "name": "eye", "parent": "root", "x": -0.98, "y": -6.88 },
+	{ "name": "huo", "parent": "root", "y": 138.38, "scaleX": 0.8, "scaleY": 0.8 },
+	{
+		"name": "paotai/angerbirdCannon/angerbird2",
+		"parent": "paotai/angerbirdCannon/angerbird1",
+		"length": 39.69,
+		"x": 119.89,
+		"y": 0.41
+	},
+	{
+		"name": "paotai/angerbirdCannon/angerbird3",
+		"parent": "paotai/angerbirdCannon/angerbird1",
+		"length": 45,
+		"rotation": -70.09,
+		"x": 70.54,
+		"y": -42.54
+	},
+	{ "name": "yumao1", "parent": "root", "rotation": 14.94, "x": -48.84, "y": 51.12 },
+	{ "name": "yumao2", "parent": "root", "rotation": -53.53, "x": -87.62, "y": 19.12 },
+	{ "name": "yumao3", "parent": "root", "rotation": -25.68, "x": 37.92, "y": 53.59 },
+	{ "name": "yumao4", "parent": "root", "rotation": 61.32, "x": 77.67, "y": 42.56 }
+],
+"slots": [
+	{ "name": "paotai/angerbirdCannon/angerbirdzidanaa", "bone": "dan" },
+	{ "name": "paotai/angerbirdCannon/paokoutexiao", "bone": "huo" },
+	{
+		"name": "paotai/angerbirdCannon/angerbird3",
+		"bone": "paotai/angerbirdCannon/angerbird3",
+		"attachment": "paotai/angerbirdCannon/angerbird3"
+	},
+	{ "name": "paotai/angerbirdCannon/angerbird4", "bone": "bone2", "attachment": "paotai/angerbirdCannon/angerbird3" },
+	{
+		"name": "paotai/angerbirdCannon/angerbird1",
+		"bone": "paotai/angerbirdCannon/angerbird1",
+		"attachment": "paotai/angerbirdCannon/angerbird1"
+	},
+	{
+		"name": "paotai/angerbirdCannon/angerbird2",
+		"bone": "paotai/angerbirdCannon/angerbird2",
+		"attachment": "paotai/angerbirdCannon/angerbird2"
+	},
+	{ "name": "paotai/angerbirdCannon/angerbirdeyes0001", "bone": "eye", "attachment": "paotai/angerbirdCannon/angerbirdeyes0001" },
+	{ "name": "paotai/angerbirdCannon/angerbirdyumao", "bone": "yumao1", "attachment": "paotai/angerbirdCannon/angerbirdyumao" },
+	{ "name": "paotai/angerbirdCannon/angerbirdyumao2", "bone": "yumao2", "attachment": "paotai/angerbirdCannon/angerbirdyumao" },
+	{ "name": "paotai/angerbirdCannon/angerbirdyumao3", "bone": "yumao3", "attachment": "paotai/angerbirdCannon/angerbirdyumao" },
+	{ "name": "paotai/angerbirdCannon/angerbirdyumao4", "bone": "yumao4", "attachment": "paotai/angerbirdCannon/angerbirdyumao" }
+],
+"skins": {
+	"default": {
+		"paotai/angerbirdCannon/angerbird1": {
+			"paotai/angerbirdCannon/angerbird1": {
+				"type": "mesh",
+				"uvs": [ 0, 0, 0.2, 0, 0.4, 0, 0.6, 0, 0.8, 0, 1, 0, 1, 0.2, 1, 0.4, 1, 0.6, 1, 0.8, 1, 1, 0.8, 1, 0.6, 1, 0.4, 1, 0.2, 1, 0, 1, 0, 0.8, 0, 0.6, 0, 0.4, 0, 0.2, 0.2, 0.2, 0.2, 0.4, 0.2, 0.6, 0.2, 0.8, 0.4, 0.2, 0.4, 0.4, 0.4, 0.6, 0.4, 0.8, 0.6, 0.2, 0.6, 0.4, 0.6, 0.6, 0.6, 0.8, 0.8, 0.2, 0.8, 0.4, 0.8, 0.6, 0.8, 0.8 ],
+				"triangles": [ 19, 0, 1, 20, 1, 2, 19, 1, 20, 24, 2, 3, 20, 2, 24, 28, 3, 4, 24, 3, 28, 32, 4, 5, 28, 4, 32, 32, 5, 6, 18, 19, 20, 21, 20, 24, 18, 20, 21, 25, 24, 28, 21, 24, 25, 29, 28, 32, 25, 28, 29, 33, 32, 6, 29, 32, 33, 33, 6, 7, 22, 21, 25, 26, 25, 29, 17, 18, 21, 17, 21, 22, 22, 25, 26, 30, 29, 33, 26, 29, 30, 34, 33, 7, 30, 33, 34, 34, 7, 8, 16, 17, 22, 23, 22, 26, 16, 22, 23, 27, 26, 30, 23, 26, 27, 31, 30, 34, 27, 30, 31, 35, 34, 8, 31, 34, 35, 35, 8, 9, 15, 16, 23, 14, 23, 27, 15, 23, 14, 13, 27, 31, 14, 27, 13, 12, 31, 35, 13, 31, 12, 11, 35, 9, 12, 35, 11, 11, 9, 10 ],
+				"vertices": [ 1, 2, 69.92, 48.58, 1, 1, 2, 69.92, 29.38, 1, 1, 2, 69.92, 10.18, 1, 1, 2, 69.92, -9.02, 1, 1, 2, 69.92, -28.22, 1, 1, 2, 69.92, -47.42, 1, 2, 1, 135.67, -47.42, 0.01482, 2, 33.12, -47.42, 0.98518, 2, 1, 98.87, -47.42, 0.34262, 2, -3.68, -47.42, 0.65738, 2, 1, 62.07, -47.42, 0.89911, 2, -40.48, -47.42, 0.10089, 1, 1, 25.27, -47.42, 1, 1, 1, -11.53, -47.42, 1, 1, 1, -11.53, -28.22, 1, 1, 1, -11.53, -9.02, 1, 1, 1, -11.53, 10.18, 1, 1, 1, -11.53, 29.38, 1, 1, 1, -11.53, 48.58, 1, 1, 1, 25.27, 48.58, 1, 2, 1, 62.07, 48.58, 0.89328, 2, -40.48, 48.58, 0.10672, 2, 1, 98.87, 48.58, 0.35819, 2, -3.68, 48.58, 0.64181, 2, 1, 135.67, 48.58, 0.02237, 2, 33.12, 48.58, 0.97763, 2, 1, 135.67, 29.38, 0.01007, 2, 33.12, 29.38, 0.98993, 2, 1, 98.87, 29.38, 0.37539, 2, -3.68, 29.38, 0.62461, 2, 1, 62.07, 29.38, 0.94753, 2, -40.48, 29.38, 0.05247, 1, 1, 25.27, 29.38, 1, 2, 1, 135.67, 10.18, 4.1E-4, 2, 33.12, 10.18, 0.99959, 2, 1, 98.87, 10.18, 0.12161, 2, -3.68, 10.18, 0.87839, 2, 1, 62.07, 10.18, 0.99904, 2, -40.48, 10.18, 9.6E-4, 1, 1, 25.27, 10.18, 1, 1, 2, 33.12, -9.02, 1, 2, 1, 98.87, -9.02, 0.24257, 2, -3.68, -9.02, 0.75743, 2, 1, 62.07, -9.02, 0.98829, 2, -40.48, -9.02, 0.01171, 1, 1, 25.27, -9.02, 1, 2, 1, 135.67, -28.22, 0.00848, 2, 33.12, -28.22, 0.99152, 2, 1, 98.87, -28.22, 0.27301, 2, -3.68, -28.22, 0.72699, 2, 1, 62.07, -28.22, 0.95544, 2, -40.48, -28.22, 0.04456, 1, 1, 25.27, -28.22, 1 ],
+				"hull": 20
+			}
+		},
+		"paotai/angerbirdCannon/angerbird2": {
+			"paotai/angerbirdCannon/angerbird2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -2.06, -13.46, -2.06, 18.54, 42.94, 18.54, 42.94, -13.46 ],
+				"hull": 4
+			}
+		},
+		"paotai/angerbirdCannon/angerbird3": {
+			"paotai/angerbirdCannon/angerbird3": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 1, 8, -3.74, -12.95, 1, 1, 8, 48.96, -31.88, 1, 1, 8, 65.86, 15.18, 1, 1, 8, 13.16, 34.11, 1 ],
+				"hull": 4
+			}
+		},
+		"paotai/angerbirdCannon/angerbird4": {
+			"paotai/angerbirdCannon/angerbird3": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -8.31, 14.81, 45.38, 30.72, 59.59, -17.21, 5.9, -33.13 ],
+				"hull": 4
+			}
+		},
+		"paotai/angerbirdCannon/angerbirdeyes0001": {
+			"paotai/angerbirdCannon/angerbirdeyes0001": { "width": 66, "height": 27 },
+			"paotai/angerbirdCannon/angerbirdeyes0002": { "width": 66, "height": 27 }
+		},
+		"paotai/angerbirdCannon/angerbirdyumao": {
+			"paotai/angerbirdCannon/angerbirdyumao": { "width": 9, "height": 27 }
+		},
+		"paotai/angerbirdCannon/angerbirdyumao2": {
+			"paotai/angerbirdCannon/angerbirdyumao": { "width": 9, "height": 27 }
+		},
+		"paotai/angerbirdCannon/angerbirdyumao3": {
+			"paotai/angerbirdCannon/angerbirdyumao": { "width": 9, "height": 27 }
+		},
+		"paotai/angerbirdCannon/angerbirdyumao4": {
+			"paotai/angerbirdCannon/angerbirdyumao": { "width": 9, "height": 27 }
+		},
+		"paotai/angerbirdCannon/angerbirdzidanaa": {
+			"paotai/angerbirdCannon/angerbirdzidanaa": { "y": -6.25, "width": 49, "height": 58 }
+		},
+		"paotai/angerbirdCannon/paokoutexiao": {
+			"paotai/angerbirdCannon/paokoutexiao": { "width": 143, "height": 167 }
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"slots": {
+			"paotai/angerbirdCannon/angerbirdeyes0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paotai/angerbirdCannon/angerbirdyumao": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paotai/angerbirdCannon/angerbirdyumao2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paotai/angerbirdCannon/angerbirdyumao3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paotai/angerbirdCannon/angerbirdyumao4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paotai/angerbirdCannon/angerbirdzidanaa": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "paotai/angerbirdCannon/angerbirdzidanaa" },
+					{ "time": 0.3, "name": null }
+				]
+			},
+			"paotai/angerbirdCannon/paokoutexiao": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "paotai/angerbirdCannon/paokoutexiao" },
+					{ "time": 0.2333, "name": "paotai/angerbirdCannon/paokoutexiao" },
+					{ "time": 0.3, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 0.728, "y": 1 },
+					{ "time": 0.2333, "x": 1, "y": 1 }
+				]
+			},
+			"paotai/angerbirdCannon/angerbird1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 0, "y": -13.01 },
+					{ "time": 0.2333, "x": 0, "y": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 18.31 },
+					{ "time": 0.1333, "angle": -23.12 },
+					{ "time": 0.2333, "angle": 18.31 }
+				]
+			},
+			"paotai/angerbirdCannon/angerbird3": {
+				"rotate": [
+					{ "time": 0, "angle": -20.13 },
+					{ "time": 0.1333, "angle": 18.87 },
+					{ "time": 0.2333, "angle": -20.13 }
+				]
+			},
+			"paotai/angerbirdCannon/angerbird2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": 19.59 },
+					{ "time": 0.2333, "angle": 5.4 }
+				]
+			},
+			"dan": {
+				"translate": [
+					{ "time": 0.1333, "x": 0, "y": -29.04 },
+					{ "time": 0.2333, "x": 0, "y": 29.04 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 2.08, "y": 0.87 },
+					{ "time": 0.2333, "x": 0.59, "y": 1.84 }
+				]
+			},
+			"huo": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 0, "y": -37.34 },
+					{ "time": 0.2333, "x": 0, "y": 4.15 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"paotai/angerbirdCannon/angerbirdeyes0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "paotai/angerbirdCannon/angerbirdeyes0001" },
+					{ "time": 0.4333, "name": "paotai/angerbirdCannon/angerbirdeyes0002" },
+					{ "time": 0.6, "name": "paotai/angerbirdCannon/angerbirdeyes0002" },
+					{ "time": 0.7667, "name": null },
+					{ "time": 1.3333, "name": "paotai/angerbirdCannon/angerbirdeyes0002" },
+					{ "time": 2.3333, "name": null }
+				]
+			},
+			"paotai/angerbirdCannon/angerbirdyumao": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": "paotai/angerbirdCannon/angerbirdyumao" }
+				]
+			},
+			"paotai/angerbirdCannon/angerbirdyumao2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.6667, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "paotai/angerbirdCannon/angerbirdyumao" },
+					{ "time": 1.6667, "name": "paotai/angerbirdCannon/angerbirdyumao" }
+				]
+			},
+			"paotai/angerbirdCannon/angerbirdyumao3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffffff" },
+					{ "time": 2.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "paotai/angerbirdCannon/angerbirdyumao" },
+					{ "time": 1.3333, "name": "paotai/angerbirdCannon/angerbirdyumao" }
+				]
+			},
+			"paotai/angerbirdCannon/angerbirdyumao4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "paotai/angerbirdCannon/angerbirdyumao" }
+				]
+			}
+		},
+		"bones": {
+			"yumao4": {
+				"rotate": [
+					{ "time": 1.1667, "angle": 0 },
+					{ "time": 1.5, "angle": -121.32 },
+					{ "time": 1.8333, "angle": -271.32 },
+					{ "time": 2.3333, "angle": -421.32 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0 },
+					{ "time": 1.5, "x": -22.8, "y": -51.92 },
+					{ "time": 2.3333, "x": 0, "y": -135.65 }
+				]
+			},
+			"yumao3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 },
+					{ "time": 1.6667, "angle": -126.74 },
+					{ "time": 2, "angle": 117.33 },
+					{ "time": 2.5, "angle": 25.68 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 },
+					{ "time": 1.6667, "x": 0.85, "y": -50.69 },
+					{ "time": 2, "x": 45.22, "y": -85.52 },
+					{ "time": 2.5, "x": 27.22, "y": -127.6 }
+				]
+			},
+			"yumao2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6667, "angle": 0 },
+					{ "time": 2, "angle": 233.53 },
+					{ "time": 2.3333, "angle": 53.53 },
+					{ "time": 2.8333, "angle": -36.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0 },
+					{ "time": 2, "x": 33.01, "y": -44.66 },
+					{ "time": 2.3333, "x": 28.46, "y": -79.75 },
+					{ "time": 2.8333, "x": 18.85, "y": -106.59 }
+				]
+			},
+			"yumao1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 },
+					{ "time": 1.6667, "angle": 75.06 },
+					{ "time": 2, "angle": 165.06 },
+					{ "time": 2.5, "angle": 255.06 },
+					{ "time": 3, "angle": 345.06 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 },
+					{ "time": 1.6667, "x": 30.47, "y": -24.57 },
+					{ "time": 2, "x": -18.68, "y": -69.79 },
+					{ "time": 2.5, "x": 17.69, "y": -86.5 },
+					{ "time": 3, "x": -19.66, "y": -120.91 }
+				]
+			},
+			"paotai/angerbirdCannon/angerbird1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": -6 },
+					{ "time": 1.5, "x": 0, "y": 4 },
+					{ "time": 1.6667, "x": 0, "y": -6 },
+					{ "time": 1.8333, "x": 0, "y": 3 },
+					{ "time": 2, "x": 0, "y": -6 },
+					{ "time": 2.1667, "x": 0, "y": 3 },
+					{ "time": 2.3333, "x": 0, "y": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1667, "angle": 0 },
+					{ "time": 1.3333, "angle": -19.06 },
+					{ "time": 1.5, "angle": 34.01 },
+					{ "time": 1.6667, "angle": -16.61 },
+					{ "time": 1.8333, "angle": 37.48 },
+					{ "time": 2, "angle": -16.61 },
+					{ "time": 2.1667, "angle": 37.48 },
+					{ "time": 2.3333, "angle": 0 }
+				]
+			},
+			"paotai/angerbirdCannon/angerbird3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1667, "angle": 0 },
+					{ "time": 1.3333, "angle": 15.69 },
+					{ "time": 1.5, "angle": -30 },
+					{ "time": 1.6667, "angle": 13.73 },
+					{ "time": 1.8333, "angle": -38.09 },
+					{ "time": 2, "angle": 13.73 },
+					{ "time": 2.1667, "angle": -38.09 },
+					{ "time": 2.3333, "angle": 360 }
+				]
+			},
+			"eye": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1667, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": -4.92 },
+					{ "time": 1.5, "x": 0, "y": 4.91 },
+					{ "time": 1.6667, "x": 0, "y": -4.92 },
+					{ "time": 1.8333, "x": 0, "y": 3.93 },
+					{ "time": 2, "x": 0, "y": -3.93 },
+					{ "time": 2.1667, "x": 0, "y": 3.93 },
+					{ "time": 2.3333, "x": 0, "y": 0.98 }
+				]
+			},
+			"paotai/angerbirdCannon/angerbird2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1667, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 },
+					{ "time": 1.5, "angle": 42 },
+					{ "time": 1.6667, "angle": 0 },
+					{ "time": 1.8333, "angle": -47.08 },
+					{ "time": 2, "angle": 0 },
+					{ "time": 2.1667, "angle": 18.73 },
+					{ "time": 2.3333, "angle": -9.6 },
+					{ "time": 2.5, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

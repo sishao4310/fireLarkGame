@@ -1,0 +1,81 @@
+{
+"skeleton": { "hash": "0JYmGPqfHNC+TYdND5DXqeR0PLQ", "spine": "3.6.53", "width": 350, "height": 350 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -2.34, "y": 3.52 },
+	{ "name": "bone2", "parent": "root", "y": 32.25 }
+],
+"slots": [
+	{ "name": "0000", "bone": "bone2", "attachment": "10000" },
+	{ "name": "jichu", "bone": "bone", "attachment": "0001" }
+],
+"skins": {
+	"default": {
+		"0000": {
+			"10000": { "width": 350, "height": 350 },
+			"10001": { "width": 350, "height": 350 },
+			"10002": { "width": 350, "height": 350 },
+			"10003": { "width": 350, "height": 350 },
+			"10004": { "width": 350, "height": 350 }
+		},
+		"jichu": {
+			"0001": { "width": 310, "height": 230 },
+			"0002": { "width": 310, "height": 230 },
+			"0003": { "width": 310, "height": 230 },
+			"0004": { "width": 310, "height": 230 },
+			"0005": { "width": 310, "height": 230 },
+			"0006": { "width": 310, "height": 230 },
+			"0007": { "width": 310, "height": 230 },
+			"0008": { "width": 310, "height": 230 },
+			"0009": { "width": 310, "height": 230 },
+			"0010": { "width": 310, "height": 230 },
+			"0011": { "width": 310, "height": 230 }
+		}
+	}
+},
+"animations": {
+	"animation2": {
+		"slots": {
+			"0000": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"jichu": {
+				"attachment": [
+					{ "time": 0, "name": "0001" },
+					{ "time": 0.0667, "name": "0002" },
+					{ "time": 0.1333, "name": "0003" },
+					{ "time": 0.2, "name": "0004" },
+					{ "time": 0.2667, "name": "0005" },
+					{ "time": 0.3333, "name": "0006" },
+					{ "time": 0.4, "name": "0007" },
+					{ "time": 0.4667, "name": "0008" },
+					{ "time": 0.5333, "name": "0009" },
+					{ "time": 0.6, "name": "0010" },
+					{ "time": 0.6667, "name": "0011" },
+					{ "time": 0.7333, "name": "0001" }
+				]
+			}
+		}
+	},
+	"animation1": {
+		"slots": {
+			"0000": {
+				"attachment": [
+					{ "time": 0, "name": "10004" },
+					{ "time": 0.0667, "name": "10000" },
+					{ "time": 0.1333, "name": "10001" },
+					{ "time": 0.2, "name": "10002" },
+					{ "time": 0.2667, "name": "10003" }
+				]
+			},
+			"jichu": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	}
+}
+}

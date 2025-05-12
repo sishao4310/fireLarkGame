@@ -1,0 +1,67 @@
+{
+"skeleton": { "hash": "x9bT4s/B3fhI5LsKFM7Iyixr2ec", "spine": "3.6.53", "width": 158.4, "height": 156.79 },
+"bones": [
+	{ "name": "root", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "bone", "parent": "root", "length": 36.01, "rotation": 90, "y": -70.44 },
+	{ "name": "bone2", "parent": "bone", "length": 98.49, "x": 44.97 },
+	{ "name": "huo", "parent": "root", "x": 1.26, "y": 81.99 }
+],
+"slots": [
+	{ "name": "paotai/paotai4/pao4", "bone": "root", "attachment": "paotai4/pao4" },
+	{ "name": "paotai/pao4/huo4", "bone": "huo", "attachment": "paotai4/huo4" }
+],
+"skins": {
+	"default": {
+		"paotai/pao4/huo4": {
+			"paotai4/huo4": { "width": 72, "height": 57 }
+		},
+		"paotai/paotai4/pao4": {
+			"paotai4/pao4": {
+				"type": "mesh",
+				"uvs": [ 0.99999, 0.65177, 1, 1, 0.5, 1, 0, 1, 0, 0.66095, 0, 0, 0.5, 0, 1, 0, 0.50065, 0.64566 ],
+				"triangles": [ 8, 5, 6, 8, 4, 5, 0, 8, 7, 8, 6, 7, 2, 0, 1, 2, 8, 0, 8, 2, 4, 2, 3, 4 ],
+				"vertices": [ 2, 1, 44.48, -99, 0.64607, 2, -0.49, -99, 0.35393, 2, 1, -15.06, -99, 0.93414, 2, -60.03, -99, 0.06586, 1, 1, -15.06, 0, 1, 2, 1, -15.06, 99, 0.86998, 2, -60.03, 99, 0.13002, 2, 1, 42.91, 99, 0.55995, 2, -2.06, 99, 0.44005, 2, 1, 155.94, 99, 0.00565, 2, 110.97, 99, 0.99435, 2, 1, 155.94, 0, 9.0E-5, 2, 110.97, 0, 0.99991, 2, 1, 155.94, -99, 0.07143, 2, 110.97, -99, 0.92857, 1, 2, 0.56, -0.13, 1 ],
+				"hull": 8
+			}
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"slots": {
+			"paotai/pao4/huo4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2333, "name": "paotai4/huo4" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 0.853, "y": 1 },
+					{ "time": 0.2333, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 0, "y": -11.83 },
+					{ "time": 0.2333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"paotai/pao4/huo4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	}
+}
+}

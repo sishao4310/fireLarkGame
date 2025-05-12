@@ -1,0 +1,322 @@
+{
+"skeleton": { "hash": "vZLEaa2mfnAKHFM6sCRCuD9MmeE", "spine": "3.6.53", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.76, "scaleY": 0.76 },
+	{ "name": "vippaotai9/vippaotai9", "parent": "root", "length": 50, "rotation": 90, "y": -70.79 },
+	{ "name": "bone", "parent": "vippaotai9/vippaotai9", "length": 81.19, "x": 61.82 },
+	{ "name": "fire", "parent": "root", "x": -75.33, "y": -61.56 },
+	{ "name": "fire2", "parent": "root", "x": 75.33, "y": -61.56, "scaleX": -1 },
+	{ "name": "huo", "parent": "root", "x": -31.94, "y": 95.31, "scaleX": 0.6, "scaleY": 0.8 },
+	{ "name": "huo2", "parent": "root", "x": 29.94, "y": 95.31, "scaleX": 0.6, "scaleY": 0.8 },
+	{ "name": "huo3", "parent": "root", "y": 124.17, "scaleX": 0.6, "scaleY": 0.8 }
+],
+"slots": [
+	{ "name": "paokoutexiao", "bone": "huo" },
+	{ "name": "paokoutexiao3", "bone": "huo2" },
+	{ "name": "paokoutexiao5", "bone": "huo3" },
+	{ "name": "paokoutexiao2", "bone": "huo", "blend": "additive" },
+	{ "name": "paokoutexiao4", "bone": "huo2", "blend": "additive" },
+	{ "name": "paokoutexiao6", "bone": "huo3", "blend": "additive" },
+	{ "name": "vippaotai9/vippaotai9", "bone": "root", "attachment": "vippaotai9/vippaotai9" },
+	{
+		"name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0001",
+		"bone": "root",
+		"attachment": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0001",
+		"blend": "additive"
+	},
+	{
+		"name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001",
+		"bone": "fire",
+		"attachment": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001"
+	},
+	{
+		"name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan1",
+		"bone": "fire2",
+		"attachment": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001"
+	}
+],
+"skins": {
+	"default": {
+		"paokoutexiao": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao2": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao3": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao4": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao5": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"paokoutexiao6": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"vippaotai9/vippaotai9": {
+			"vippaotai9/vippaotai9": {
+				"type": "mesh",
+				"uvs": [ 0, 0, 0.33333, 0, 0.66667, 0, 1, 0, 1, 0.33333, 1, 0.66667, 1, 1, 0.66667, 1, 0.33333, 1, 0, 1, 0, 0.66667, 0, 0.33333, 0.33333, 0.33333, 0.33333, 0.66667, 0.66667, 0.33333, 0.66667, 0.66667 ],
+				"triangles": [ 11, 0, 1, 12, 1, 2, 11, 1, 12, 14, 2, 3, 12, 2, 14, 14, 3, 4, 10, 11, 12, 13, 12, 14, 10, 12, 13, 15, 14, 4, 13, 14, 15, 15, 4, 5, 9, 10, 13, 8, 13, 15, 9, 13, 8, 7, 15, 5, 8, 15, 7, 7, 5, 6 ],
+				"vertices": [ 1, 2, 95.47, 77.33, 1, 1, 2, 95.47, 25.33, 1, 1, 2, 95.47, -26.67, 1, 1, 2, 95.47, -78.67, 1, 2, 1, 99.62, -78.67, 0.10378, 2, 37.8, -78.67, 0.89622, 2, 1, 41.96, -78.67, 0.6564, 2, -19.87, -78.67, 0.3436, 2, 1, -15.71, -78.67, 0.9783, 2, -77.53, -78.67, 0.0217, 1, 1, -15.71, -26.67, 1, 1, 1, -15.71, 25.33, 1, 2, 1, -15.71, 77.33, 0.9783, 2, -77.53, 77.33, 0.0217, 2, 1, 41.96, 77.33, 0.65843, 2, -19.87, 77.33, 0.34157, 2, 1, 99.62, 77.33, 0.10293, 2, 37.8, 77.33, 0.89707, 2, 1, 99.62, 25.33, 0.01338, 2, 37.8, 25.33, 0.98662, 2, 1, 41.96, 25.33, 0.68234, 2, -19.87, 25.33, 0.31766, 2, 1, 99.62, -26.67, 0.02223, 2, 37.8, -26.67, 0.97777, 2, 1, 41.96, -26.67, 0.82891, 2, -19.87, -26.67, 0.17109 ],
+				"hull": 12,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 0 ],
+				"width": 156,
+				"height": 173
+			}
+		},
+		"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0001": {
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0001": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0002": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0003": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0004": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0005": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0006": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0007": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0008": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0009": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0010": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0011": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0012": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0013": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0014": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0015": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0016": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0017": { "width": 131, "height": 146 },
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0018": { "width": 131, "height": 146 }
+		},
+		"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001": {
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008": { "width": 113, "height": 64 }
+		},
+		"vippaotai9/vippaotaihuoyan/vippaotai9huoyan1": {
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007": { "width": 113, "height": 64 },
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008": { "width": 113, "height": 64 }
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"slots": {
+			"paokoutexiao": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"paokoutexiao6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0001": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001": {
+				"attachment": [
+					{ "time": 0, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001" },
+					{ "time": 0.0333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002" },
+					{ "time": 0.0667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003" },
+					{ "time": 0.1, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004" },
+					{ "time": 0.1333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005" },
+					{ "time": 0.2, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006" },
+					{ "time": 0.2667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007" },
+					{ "time": 0.3333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008" }
+				]
+			},
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan1": {
+				"attachment": [
+					{ "time": 0, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001" },
+					{ "time": 0.0333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002" },
+					{ "time": 0.0667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003" },
+					{ "time": 0.1, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004" },
+					{ "time": 0.1333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005" },
+					{ "time": 0.2, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006" },
+					{ "time": 0.2667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007" },
+					{ "time": 0.3333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 0, "y": -10 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 0.85, "y": 1 },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"paokoutexiao": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"paokoutexiao6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0001": {
+				"color": [
+					{ "time": 0, "color": "ffffffbf" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0001" },
+					{ "time": 0.0333, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0002" },
+					{ "time": 0.1, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0003" },
+					{ "time": 0.1333, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0004" },
+					{ "time": 0.2, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0005" },
+					{ "time": 0.2333, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0006" },
+					{ "time": 0.3, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0007" },
+					{ "time": 0.3333, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0008" },
+					{ "time": 0.4, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0009" },
+					{ "time": 0.4333, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0010" },
+					{ "time": 0.5, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0011" },
+					{ "time": 0.5333, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0012" },
+					{ "time": 0.6, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0013" },
+					{ "time": 0.6333, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0014" },
+					{ "time": 0.7, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0015" },
+					{ "time": 0.7333, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0016" },
+					{ "time": 0.8, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0017" },
+					{ "time": 0.8333, "name": "vippaotai9/vippaotai9shuaxiao/vippaotai9shuaxiao0018" },
+					{ "time": 0.9, "name": null },
+					{ "time": 1.5, "name": null }
+				]
+			},
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001": {
+				"attachment": [
+					{ "time": 0, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001" },
+					{ "time": 0.0667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002" },
+					{ "time": 0.1333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003" },
+					{ "time": 0.2, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004" },
+					{ "time": 0.2667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005" },
+					{ "time": 0.3333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006" },
+					{ "time": 0.4, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007" },
+					{ "time": 0.4667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008" },
+					{ "time": 0.5333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001" },
+					{ "time": 0.6, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002" },
+					{ "time": 0.6667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003" },
+					{ "time": 0.7333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004" },
+					{ "time": 0.8, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005" },
+					{ "time": 0.8667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006" },
+					{ "time": 0.9333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007" },
+					{ "time": 1, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008" },
+					{ "time": 1.0667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001" },
+					{ "time": 1.1333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002" },
+					{ "time": 1.2, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003" },
+					{ "time": 1.2667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004" },
+					{ "time": 1.3333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005" },
+					{ "time": 1.4, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006" },
+					{ "time": 1.4667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007" },
+					{ "time": 1.5, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008" }
+				]
+			},
+			"vippaotai9/vippaotaihuoyan/vippaotai9huoyan1": {
+				"attachment": [
+					{ "time": 0, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001" },
+					{ "time": 0.0667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002" },
+					{ "time": 0.1333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003" },
+					{ "time": 0.2, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004" },
+					{ "time": 0.2667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005" },
+					{ "time": 0.3333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006" },
+					{ "time": 0.4, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007" },
+					{ "time": 0.4667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008" },
+					{ "time": 0.5333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001" },
+					{ "time": 0.6, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002" },
+					{ "time": 0.6667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003" },
+					{ "time": 0.7333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004" },
+					{ "time": 0.8, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005" },
+					{ "time": 0.8667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006" },
+					{ "time": 0.9333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007" },
+					{ "time": 1, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008" },
+					{ "time": 1.0667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0001" },
+					{ "time": 1.1333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0002" },
+					{ "time": 1.2, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0003" },
+					{ "time": 1.2667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0004" },
+					{ "time": 1.3333, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0005" },
+					{ "time": 1.4, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0006" },
+					{ "time": 1.4667, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0007" },
+					{ "time": 1.5, "name": "vippaotai9/vippaotaihuoyan/vippaotai9huoyan0008" }
+				]
+			}
+		}
+	}
+}
+}

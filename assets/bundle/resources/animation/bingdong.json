@@ -1,0 +1,88 @@
+{
+"skeleton": { "hash": "TCDrUwyUSm0j6SV2EY6e8ls5P28", "spine": "3.3.07", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "bd_zuoyou", "parent": "root" },
+	{ "name": "bingdong_shangxia", "parent": "root" }
+],
+"slots": [
+	{ "name": "bingdong/bingdongcem", "bone": "bd_zuoyou", "attachment": "bingdong/bingdong_cemian" },
+	{ "name": "bingdong/bingdongcem2", "bone": "bd_zuoyou", "attachment": "bingdong/bingdong_cemian" },
+	{ "name": "bingdong/bingdongs", "bone": "bingdong_shangxia", "attachment": "bingdong/bingdong_di" },
+	{ "name": "bingdong/bingdongs2", "bone": "bingdong_shangxia", "attachment": "bingdong/bingdong_di" }
+],
+"skins": {
+	"default": {
+		"bingdong/bingdongcem": {
+			"bingdong/bingdong_cemian": { "x": -652.51, "width": 296, "height": 899 }
+		},
+		"bingdong/bingdongcem2": {
+			"bingdong/bingdong_cemian": { "x": 652.51, "scaleX": -1, "width": 296, "height": 899 }
+		},
+		"bingdong/bingdongs": {
+			"bingdong/bingdong_di": { "y": -347.11, "width": 1307, "height": 210 }
+		},
+		"bingdong/bingdongs2": {
+			"bingdong/bingdong_di": { "y": 344.95, "scaleY": -1, "width": 1307, "height": 210 }
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"slots": {
+			"bingdong/bingdongcem": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"bingdong/bingdongcem2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"bingdong/bingdongs": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"bingdong/bingdongs2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"bingdong/bingdongcem": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bingdong/bingdongcem2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bingdong/bingdongs": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"bingdong/bingdongs2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

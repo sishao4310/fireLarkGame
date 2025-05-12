@@ -1,0 +1,70 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "0cc6ea2f-fc2a-461e-887e-fd857bdbe96a",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "zaicichu": {
+      "ver": "1.0.4",
+      "uuid": "8e0ebcdc-e3cb-401a-9c21-593f6c1aaf80",
+      "rawTextureUuid": "0cc6ea2f-fc2a-461e-887e-fd857bdbe96a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 275,
+      "height": 221,
+      "rawWidth": 275,
+      "rawHeight": 221,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "importer": "*",
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "0cc6ea2f-fc2a-461e-887e-fd857bdbe96a@6c48a",
+      "displayName": "zaicichu",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0cc6ea2f-fc2a-461e-887e-fd857bdbe96a",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "0cc6ea2f-fc2a-461e-887e-fd857bdbe96a@6c48a"
+  }
+}

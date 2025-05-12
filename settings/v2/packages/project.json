@@ -4,7 +4,7 @@
       "fitWidth": false,
       "fitHeight": true,
       "height": 720,
-      "width": 1200
+      "width": 1280
     }
   },
   "__version__": "1.0.6",
@@ -16,5 +16,72 @@
   "script": {
     "preserveSymlinks": true
   },
-  "custom_joint_texture_layouts": []
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "border"
+      },
+      {
+        "index": 2,
+        "name": "bullet"
+      },
+      {
+        "index": 3,
+        "name": "fish"
+      },
+      {
+        "index": 4,
+        "name": "lock_bullet"
+      },
+      {
+        "index": 5,
+        "name": "lock_fish"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 20,
+      "2": 42,
+      "3": 4,
+      "4": 34,
+      "5": 20
+    }
+  },
+  "sorting-layer": {
+    "layers": [
+      {
+        "id": 0,
+        "name": "default",
+        "value": 0
+      },
+      {
+        "id": 1,
+        "name": "border",
+        "value": 1
+      },
+      {
+        "id": 2,
+        "name": "bullet",
+        "value": 2
+      },
+      {
+        "id": 3,
+        "name": "fish",
+        "value": 3
+      },
+      {
+        "id": 4,
+        "name": "lock_bullet",
+        "value": 4
+      },
+      {
+        "id": 5,
+        "name": "lock_fish",
+        "value": 5
+      }
+    ],
+    "increaseId": 5
+  }
 }

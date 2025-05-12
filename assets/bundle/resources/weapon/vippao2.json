@@ -1,0 +1,152 @@
+{
+"skeleton": { "hash": "FD/vta4I/CWRIAGfNuij6qICh1s", "spine": "3.6.53", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root", "scaleX": 0.76, "scaleY": 0.76 },
+	{ "name": "bone", "parent": "root", "length": 30, "rotation": 90, "x": 0.37, "y": -64 },
+	{ "name": "bone2", "parent": "bone", "length": 90, "x": 41.42 },
+	{ "name": "huo", "parent": "root", "x": -45.73, "y": 88.83, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "huo2", "parent": "root", "x": 44.81, "y": 90.68, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "huo3", "parent": "root", "y": 119.56, "scaleX": 0.8, "scaleY": 0.8 }
+],
+"slots": [
+	{ "name": "huo", "bone": "huo" },
+	{ "name": "huo3", "bone": "huo2" },
+	{ "name": "huo5", "bone": "huo3" },
+	{ "name": "huo2", "bone": "huo", "blend": "additive" },
+	{ "name": "huo4", "bone": "huo2", "blend": "additive" },
+	{ "name": "huo6", "bone": "huo3", "blend": "additive" },
+	{ "name": "vippaotai2", "bone": "root", "attachment": "vippaotai2" }
+],
+"skins": {
+	"default": {
+		"huo": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"huo2": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"huo3": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"huo4": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"huo5": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"huo6": {
+			"paokoutexiao": { "width": 138, "height": 161 }
+		},
+		"vippaotai2": {
+			"vippaotai2": {
+				"type": "mesh",
+				"uvs": [ 0, 0, 0.33333, 0, 0.66667, 0, 1, 0, 1, 0.33333, 1, 0.66667, 1, 1, 0.66667, 1, 0.33333, 1, 0, 1, 0, 0.66667, 0, 0.33333, 0.33333, 0.33333, 0.33333, 0.66667, 0.66667, 0.33333, 0.66667, 0.66667 ],
+				"triangles": [ 11, 0, 1, 12, 1, 2, 11, 1, 12, 14, 2, 3, 12, 2, 14, 14, 3, 4, 10, 11, 12, 13, 12, 14, 10, 12, 13, 15, 14, 4, 13, 14, 15, 15, 4, 5, 9, 10, 13, 8, 13, 15, 9, 13, 8, 7, 15, 5, 8, 15, 7, 7, 5, 6 ],
+				"vertices": [ 1, 2, 102.09, 78.37, 1, 1, 2, 102.09, 26.37, 1, 1, 2, 102.09, -25.63, 1, 1, 2, 102.09, -77.63, 1, 2, 1, 90.5, -77.63, 0.07813, 2, 49.09, -77.63, 0.92187, 2, 1, 37.5, -77.63, 0.57514, 2, -3.91, -77.63, 0.42486, 2, 1, -15.5, -77.63, 0.95746, 2, -56.91, -77.63, 0.04254, 1, 1, -15.49, -25.63, 1, 2, 1, -15.49, 26.37, 0.93881, 2, -56.91, 26.37, 0.06119, 2, 1, -15.49, 78.37, 0.79077, 2, -56.91, 78.37, 0.20923, 2, 1, 37.51, 78.37, 0.45255, 2, -3.91, 78.37, 0.54745, 2, 1, 90.51, 78.37, 0.06026, 2, 49.09, 78.37, 0.93974, 2, 1, 90.5, 26.37, 0.00432, 2, 49.09, 26.37, 0.99568, 2, 1, 37.5, 26.37, 0.512, 2, -3.91, 26.37, 0.488, 2, 1, 90.5, -25.63, 0.00829, 2, 49.09, -25.63, 0.99171, 2, 1, 37.5, -25.63, 0.45512, 2, -3.91, -25.63, 0.54488 ],
+				"hull": 12,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 0 ],
+				"width": 156,
+				"height": 159
+			}
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"slots": {
+			"huo": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"huo2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"huo3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"huo4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"huo5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"huo6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2667, "name": "paokoutexiao" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 0.8, "y": 1 },
+					{ "time": 0.2667, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 0, "y": -10 },
+					{ "time": 0.2667, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"slots": {
+			"huo": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"huo2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"huo3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"huo4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"huo5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"huo6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,18 @@
+{
+  "ver": "1.0.1",
+  "importer": "label-atlas",
+  "imported": true,
+  "uuid": "baa525d3-8bad-4023-b117-d7f6d34566a7",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "itemWidth": 2,
+    "itemHeight": 2,
+    "fontSize": 0,
+    "startChar": "",
+    "spriteFrameUuid": "",
+    "_fntConfig": {}
+  }
+}
