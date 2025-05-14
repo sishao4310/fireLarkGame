@@ -60,7 +60,7 @@ export class LoadingViewComp extends CCVMParentComp {
     private loadGameRes() {
         // 加载初始游戏内容资源的多语言提示文本
         this.data.prompt = oops.language.getLangByID("loading_load_game");
-        oops.res.loadDir("resource", this.onProgressCallback.bind(this), this.onCompleteCallback.bind(this));
+        oops.res.loadDir("game", this.onProgressCallback.bind(this), this.onCompleteCallback.bind(this)); 
     }
 
     /** 加载进度事件 */
