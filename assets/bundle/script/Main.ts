@@ -14,6 +14,7 @@ import { smc } from './game/common/SingletonModuleComp';
 import { UIConfigData } from './game/common/config/GameUIConfig';
 import { Initialize } from './game/initialize/Initialize';
 import { Vec3 } from 'cc';
+import { GameData } from './game/gamedata/GameData';
 
 const { ccclass, property } = _decorator;
 
@@ -32,6 +33,7 @@ export class Main extends Root {
         //游戏入口
         smc.initialize = ecs.getEntity<Initialize>(Initialize);
         smc.account = ecs.getEntity<Account>(Account);
+        smc.gameData = ecs.getEntity<GameData>(GameData)
     }
 
     protected initGui() {

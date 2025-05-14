@@ -10,9 +10,27 @@
   "userData": {
     "itemWidth": 2,
     "itemHeight": 2,
-    "fontSize": 0,
+    "fontSize": 1.76,
     "startChar": "",
-    "spriteFrameUuid": "",
-    "_fntConfig": {}
+    "spriteFrameUuid": "714a3e8d-4357-4058-93f2-9ad3ef0d5b65@f9941",
+    "_fntConfig": {
+      "commonHeight": 2,
+      "fontSize": 1,
+      "atlasName": "num_2",
+      "fontDefDictionary": {
+        "NaN": {
+          "rect": {
+            "x": 218,
+            "y": 26,
+            "width": 2,
+            "height": 2
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 2
+        }
+      },
+      "kerningDict": {}
+    }
   }
 }

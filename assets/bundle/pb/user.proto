@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package user;
+option go_package = "./user";
+
+// 通用请求
+message AnyDataReq {
+    bytes anyPbMarshal = 1;
+}
+
+// 通用返回
+message AnyDataResp {
+    bytes anyPbMarshal = 1;
+}

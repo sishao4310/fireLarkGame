@@ -12,7 +12,8 @@ import { ModuleUtil } from "../../../../../../extensions/oops-plugin-framework/a
 import { DemoViewComp } from "../../account/view/DemoViewComp";
 import { smc } from "../../common/SingletonModuleComp";
 import { UIID } from "../../common/config/GameUIConfig";
-import { GameViewComp } from "../../GameViewComp";
+import { GameViewComp } from "./GameViewComp";
+import FishData from "../../config/FishData";
 
 const { ccclass, property } = _decorator;
 
