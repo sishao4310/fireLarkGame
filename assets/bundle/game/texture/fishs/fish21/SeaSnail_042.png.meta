@@ -15,8 +15,8 @@
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -31,11 +31,103 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "d6a35f3b-6e85-4569-b8cc-c0cf91319b66@f9941",
+      "displayName": "SeaSnail_042",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 3,
+        "offsetY": 1,
+        "trimX": 8,
+        "trimY": 4,
+        "width": 101,
+        "height": 93,
+        "rawWidth": 111,
+        "rawHeight": 103,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -50.5,
+            -46.5,
+            0,
+            50.5,
+            -46.5,
+            0,
+            -50.5,
+            46.5,
+            0,
+            50.5,
+            46.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            8,
+            99,
+            109,
+            99,
+            8,
+            6,
+            109,
+            6
+          ],
+          "nuv": [
+            0.07207207207207207,
+            0.05825242718446602,
+            0.9819819819819819,
+            0.05825242718446602,
+            0.07207207207207207,
+            0.9611650485436893,
+            0.9819819819819819,
+            0.9611650485436893
+          ],
+          "minPos": [
+            -50.5,
+            -46.5,
+            0
+          ],
+          "maxPos": [
+            50.5,
+            46.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d6a35f3b-6e85-4569-b8cc-c0cf91319b66@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
     "redirect": "d6a35f3b-6e85-4569-b8cc-c0cf91319b66@6c48a"
   }

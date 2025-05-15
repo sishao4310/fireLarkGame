@@ -15,8 +15,8 @@
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -31,11 +31,103 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "de7426de-5d9a-4dd4-9052-2098b0c3c105@f9941",
+      "displayName": "King_AnglerFish_yd00_60",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -67,
+        "offsetY": 58.5,
+        "trimX": 40,
+        "trimY": 36,
+        "width": 386,
+        "height": 391,
+        "rawWidth": 600,
+        "rawHeight": 580,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -193,
+            -195.5,
+            0,
+            193,
+            -195.5,
+            0,
+            -193,
+            195.5,
+            0,
+            193,
+            195.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            40,
+            544,
+            426,
+            544,
+            40,
+            153,
+            426,
+            153
+          ],
+          "nuv": [
+            0.06666666666666667,
+            0.2637931034482759,
+            0.71,
+            0.2637931034482759,
+            0.06666666666666667,
+            0.9379310344827586,
+            0.71,
+            0.9379310344827586
+          ],
+          "minPos": [
+            -193,
+            -195.5,
+            0
+          ],
+          "maxPos": [
+            193,
+            195.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "de7426de-5d9a-4dd4-9052-2098b0c3c105@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
     "redirect": "de7426de-5d9a-4dd4-9052-2098b0c3c105@6c48a"
   }

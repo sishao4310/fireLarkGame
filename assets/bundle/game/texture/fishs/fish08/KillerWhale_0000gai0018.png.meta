@@ -15,8 +15,8 @@
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -31,11 +31,103 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "ee40f0f4-995d-45c7-a80e-79b9d434a3dd@f9941",
+      "displayName": "KillerWhale_0000gai0018",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 24.5,
+        "offsetY": 0,
+        "trimX": 55,
+        "trimY": 8,
+        "width": 225,
+        "height": 374,
+        "rawWidth": 286,
+        "rawHeight": 390,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -112.5,
+            -187,
+            0,
+            112.5,
+            -187,
+            0,
+            -112.5,
+            187,
+            0,
+            112.5,
+            187,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            55,
+            382,
+            280,
+            382,
+            55,
+            8,
+            280,
+            8
+          ],
+          "nuv": [
+            0.19230769230769232,
+            0.020512820512820513,
+            0.9790209790209791,
+            0.020512820512820513,
+            0.19230769230769232,
+            0.9794871794871794,
+            0.9790209790209791,
+            0.9794871794871794
+          ],
+          "minPos": [
+            -112.5,
+            -187,
+            0
+          ],
+          "maxPos": [
+            112.5,
+            187,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ee40f0f4-995d-45c7-a80e-79b9d434a3dd@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
     "redirect": "ee40f0f4-995d-45c7-a80e-79b9d434a3dd@6c48a"
   }

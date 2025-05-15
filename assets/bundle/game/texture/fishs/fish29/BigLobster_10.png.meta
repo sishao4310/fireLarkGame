@@ -15,8 +15,8 @@
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -31,11 +31,103 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "6cd91eb5-ccfc-4183-977b-167bd7630133@f9941",
+      "displayName": "BigLobster_10",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -8,
+        "offsetY": -3,
+        "trimX": 1,
+        "trimY": 9,
+        "width": 182,
+        "height": 202,
+        "rawWidth": 200,
+        "rawHeight": 214,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -91,
+            -101,
+            0,
+            91,
+            -101,
+            0,
+            -91,
+            101,
+            0,
+            91,
+            101,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            1,
+            205,
+            183,
+            205,
+            1,
+            3,
+            183,
+            3
+          ],
+          "nuv": [
+            0.005,
+            0.014018691588785047,
+            0.915,
+            0.014018691588785047,
+            0.005,
+            0.9579439252336449,
+            0.915,
+            0.9579439252336449
+          ],
+          "minPos": [
+            -91,
+            -101,
+            0
+          ],
+          "maxPos": [
+            91,
+            101,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6cd91eb5-ccfc-4183-977b-167bd7630133@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
     "redirect": "6cd91eb5-ccfc-4183-977b-167bd7630133@6c48a"
   }

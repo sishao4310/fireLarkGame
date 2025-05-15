@@ -15,8 +15,8 @@
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -31,11 +31,103 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "f6bfcb8a-1a22-47c9-b2d9-88af30ba44ff@f9941",
+      "displayName": "SawtoothShark_yd_077",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 15,
+        "offsetY": -7,
+        "trimX": 37,
+        "trimY": 20,
+        "width": 118,
+        "height": 269,
+        "rawWidth": 162,
+        "rawHeight": 295,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -59,
+            -134.5,
+            0,
+            59,
+            -134.5,
+            0,
+            -59,
+            134.5,
+            0,
+            59,
+            134.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            37,
+            275,
+            155,
+            275,
+            37,
+            6,
+            155,
+            6
+          ],
+          "nuv": [
+            0.22839506172839505,
+            0.020338983050847456,
+            0.9567901234567902,
+            0.020338983050847456,
+            0.22839506172839505,
+            0.9322033898305084,
+            0.9567901234567902,
+            0.9322033898305084
+          ],
+          "minPos": [
+            -59,
+            -134.5,
+            0
+          ],
+          "maxPos": [
+            59,
+            134.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f6bfcb8a-1a22-47c9-b2d9-88af30ba44ff@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
     "redirect": "f6bfcb8a-1a22-47c9-b2d9-88af30ba44ff@6c48a"
   }

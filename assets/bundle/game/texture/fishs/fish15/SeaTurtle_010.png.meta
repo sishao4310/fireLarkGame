@@ -15,8 +15,8 @@
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -31,11 +31,103 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "fa2db75e-f15e-4e94-b576-4093abea8052@f9941",
+      "displayName": "SeaTurtle_010",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -1,
+        "offsetY": -10,
+        "trimX": 23,
+        "trimY": 37,
+        "width": 202,
+        "height": 146,
+        "rawWidth": 250,
+        "rawHeight": 200,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -101,
+            -73,
+            0,
+            101,
+            -73,
+            0,
+            -101,
+            73,
+            0,
+            101,
+            73,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            23,
+            163,
+            225,
+            163,
+            23,
+            17,
+            225,
+            17
+          ],
+          "nuv": [
+            0.092,
+            0.085,
+            0.9,
+            0.085,
+            0.092,
+            0.815,
+            0.9,
+            0.815
+          ],
+          "minPos": [
+            -101,
+            -73,
+            0
+          ],
+          "maxPos": [
+            101,
+            73,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "fa2db75e-f15e-4e94-b576-4093abea8052@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
     "redirect": "fa2db75e-f15e-4e94-b576-4093abea8052@6c48a"
   }

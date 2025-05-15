@@ -15,8 +15,8 @@
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -31,11 +31,103 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "a739ba9d-1585-48ef-87f3-ea1871bc9669@f9941",
+      "displayName": "HumpBackWhale_022",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 28,
+        "offsetY": -4.5,
+        "trimX": 87,
+        "trimY": 45,
+        "width": 382,
+        "height": 699,
+        "rawWidth": 500,
+        "rawHeight": 780,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -191,
+            -349.5,
+            0,
+            191,
+            -349.5,
+            0,
+            -191,
+            349.5,
+            0,
+            191,
+            349.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            87,
+            735,
+            469,
+            735,
+            87,
+            36,
+            469,
+            36
+          ],
+          "nuv": [
+            0.174,
+            0.046153846153846156,
+            0.938,
+            0.046153846153846156,
+            0.174,
+            0.9423076923076923,
+            0.938,
+            0.9423076923076923
+          ],
+          "minPos": [
+            -191,
+            -349.5,
+            0
+          ],
+          "maxPos": [
+            191,
+            349.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a739ba9d-1585-48ef-87f3-ea1871bc9669@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
     "redirect": "a739ba9d-1585-48ef-87f3-ea1871bc9669@6c48a"
   }

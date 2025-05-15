@@ -15,8 +15,8 @@
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -31,11 +31,103 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "ab5afe81-bd5a-4fab-89bb-6f3c233607c0@f9941",
+      "displayName": "King_Lacoste_104",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -5,
+        "offsetY": -47,
+        "trimX": 24,
+        "trimY": 159,
+        "width": 162,
+        "height": 396,
+        "rawWidth": 220,
+        "rawHeight": 620,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -81,
+            -198,
+            0,
+            81,
+            -198,
+            0,
+            -81,
+            198,
+            0,
+            81,
+            198,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            24,
+            461,
+            186,
+            461,
+            24,
+            65,
+            186,
+            65
+          ],
+          "nuv": [
+            0.10909090909090909,
+            0.10483870967741936,
+            0.8454545454545455,
+            0.10483870967741936,
+            0.10909090909090909,
+            0.7435483870967742,
+            0.8454545454545455,
+            0.7435483870967742
+          ],
+          "minPos": [
+            -81,
+            -198,
+            0
+          ],
+          "maxPos": [
+            81,
+            198,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ab5afe81-bd5a-4fab-89bb-6f3c233607c0@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
     "redirect": "ab5afe81-bd5a-4fab-89bb-6f3c233607c0@6c48a"
   }

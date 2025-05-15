@@ -15,8 +15,8 @@
       "id": "6c48a",
       "name": "texture",
       "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -31,11 +31,103 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "a03877fb-211c-49ef-9b38-55ebaea5ea05@f9941",
+      "displayName": "AnglerFish_1_122",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -6,
+        "offsetY": -3,
+        "trimX": 16,
+        "trimY": 24,
+        "width": 106,
+        "height": 158,
+        "rawWidth": 150,
+        "rawHeight": 200,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -53,
+            -79,
+            0,
+            53,
+            -79,
+            0,
+            -53,
+            79,
+            0,
+            53,
+            79,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            16,
+            176,
+            122,
+            176,
+            16,
+            18,
+            122,
+            18
+          ],
+          "nuv": [
+            0.10666666666666667,
+            0.09,
+            0.8133333333333334,
+            0.09,
+            0.10666666666666667,
+            0.88,
+            0.8133333333333334,
+            0.88
+          ],
+          "minPos": [
+            -53,
+            -79,
+            0
+          ],
+          "maxPos": [
+            53,
+            79,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a03877fb-211c-49ef-9b38-55ebaea5ea05@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
+    "type": "sprite-frame",
     "fixAlphaTransparencyArtifacts": false,
     "redirect": "a03877fb-211c-49ef-9b38-55ebaea5ea05@6c48a"
   }

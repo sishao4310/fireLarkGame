@@ -207,10 +207,250 @@
       {
         "__uuid__": "80ffac94-5cd4-44c7-bf80-7e841fb85dcc",
         "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "3cba3cc5-554e-43fa-9e9d-225400f20fb8",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "a02eb8fd-e8e9-4dea-8742-caab6f340405",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "310b59f6-960f-40ab-bd0d-b7d13faf32ba",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "ebe72217-1b8d-4025-acf0-6262e3d303ad",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "a865dbce-6d41-4611-b34b-a05d92833404",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "ec944ed9-7db2-4232-9952-d1484530da63",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "c85e467c-b36a-4c8d-8f60-5a8f432e24a6",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "afe53ebb-23ad-4aca-931e-8135097a59df",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "0a891295-aff8-4ca7-9dc8-a4f49f5ee474",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "298f4351-8a62-4155-92ac-6299bd5da15b",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "7b4d44b9-88a5-4b0c-9450-83ada0848f17",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "9cd7304a-ac64-40e2-8d75-7810838d0559",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "b5289bd5-bf55-45a7-9f59-59b16f9f94d3",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "a7b00eae-6c81-40c9-af8d-8ce476475cde",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "d471ec14-114c-4936-8e72-458fabf66499",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "6753dbb7-ae58-4bb6-8a17-a2b6e43e7d53",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "40ce8471-d87f-49d7-8f25-91f670d686e4",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "24dd2665-8e43-4e8b-bacd-fd8e61388306",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "3643f994-2b3a-482f-94db-075eabf3717d",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "16845705-b9d1-430c-aa50-fe904cb2e7c9",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "76f1cacf-5440-471e-9dad-02d1d4e7039d",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "d9c120b1-3105-4a56-9410-6097ad09f8f3",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "9389c084-7bd0-40f4-92e8-4eceb58084ad",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "afba51a4-d308-49eb-a319-8390cfaba31a",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "f6e740c1-1792-49cd-84cf-711e0d9cfbb7",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "e59c1e61-ff50-4e29-a987-b098d8ec8c7f",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "49b48be5-f5e0-490b-b017-6e1fa4c383a0",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "f0951350-a065-43d3-959a-f67624d0fa90",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "40733566-40f0-43b6-b7ea-5fe97f3cc360",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "ab3ca8d3-b855-4841-b8aa-43193376045c",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "bbe99838-0420-42dc-b320-5ef7fa2daf7b",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "710378ec-b6e6-4e59-8387-3020edc27271",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "05ded2ba-c5b0-494b-b485-2bfede8d5214",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "fc0a620b-09f0-4112-a312-5291e3700894",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "07b528f8-1d0d-42a3-a6a7-944360e650dd",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "0fa7afce-0745-40fd-8ce3-99584668bc3b",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "ebe3af28-0b44-4e13-b07b-18d980483958",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "f255a557-5a0c-44d2-96d4-b43b140bdf36",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "9655668e-327e-4575-a3b9-b4c9f92a0633",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "23b457a7-bfd5-46f0-ad37-e09e4bfa67cb",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "bfd0b6e6-de22-4330-9b59-47826cb0ef1c",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "7f8547a9-dccf-4c08-8595-f4d4e27a0cb8",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "d833663e-0473-40f5-a47a-c43a1098c185",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "134c4b52-1164-485f-9726-720ae82457b2",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "6f8dad70-144e-4b30-b6a6-15651221f616",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "76c8b420-34d0-4481-99a0-2b65ff717f95",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "4cd1b3e0-2eed-4998-af10-82392f5ba990",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "f55aeac5-2cc6-4360-9a51-0680445162a0",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "f861ad6e-f633-49ae-974b-c3c793648ddb",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "f9f9fb62-1289-4064-b196-469beee7138f",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "7f0d9d48-9964-43f1-89c1-fb2b3cbe0668",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "92a94f56-086a-4006-a04e-17cbb0a23232",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "0d78bb78-d0f5-43b9-a38c-bea6186d3041",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "3ee71afc-3bc8-426c-b404-c9224efae685",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "c2579cc1-3b52-46bd-b778-617047d6def8",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "52fb7542-7361-4a7b-9176-c1de9b9ab0f0",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "f5608f73-3ded-460c-9358-d2f5ac898b87",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "7ade10d3-fa2c-4745-8451-d1c1f957f690",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "79ba2fa1-0d1f-4cab-a235-f0de92cdcff7",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "a545ee2e-8606-4278-aa07-22656749953f",
+        "__expectedType__": "cc.AnimationClip"
       }
     ],
     "_defaultClip": {
-      "__uuid__": "82bd3d4a-a4bf-4ebf-a3e1-848de9564636",
+      "__uuid__": "310b59f6-960f-40ab-bd0d-b7d13faf32ba",
       "__expectedType__": "cc.AnimationClip"
     },
     "_id": ""

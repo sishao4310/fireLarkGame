@@ -56,7 +56,7 @@ export class GameViewComp extends CCComp {
         this.initWeapon();
     }
     initWeapon(){
-        this.weapon[0].initData(1);
+        this.weapon[0].initData(2);
     }
 
     update(deltaTime: number) {
